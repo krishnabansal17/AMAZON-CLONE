@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Amazon-Logo */
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* Hover Effect  */
+
+.border {
+    border: 2px solid transparent;
+    padding: 4px;
+}
+
+.border:hover {
+    border: 2px solid white;
+    padding: 4px;
+}
+
+/* Deliver To Section */
+
+.add-icon {
+    display: flex;
+}
+.add-first {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 23px;
+}
+
+.add-second {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+/* Search Bar */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fac928;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+/* Language Selector */
+
+.nav-lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang-select {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-weight: bold;
+    width: auto;
+    min-width: 70px;
+    padding: 4px 6px;
+    cursor: pointer !important;
+    font-size: 0.9rem;
+}
+
+.lang-select option {
+    background-color: white;
+    color: black;
+}
+
+.lang-icon {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Sign In & Returns-Orders */
+
+.nav-first {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Cart */
+
+.nav-cart {
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-cart p {
+    font-size: small;
+}
+
+.cart-icon {
+    font-size: 27px;
+}
