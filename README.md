@@ -24,7 +24,7 @@ cd amazon-clone
 Just open `index.html` in your browser — no build steps or dependencies required.
 
 ## Screenshots
-*(Add a screenshot of your homepage here)*
+![Navbar Screenshot](screenshots/navbar.png)
 
 ## Learnings
 This project helped me practice semantic HTML, CSS layout techniques (Flexbox/Grid), and building pixel-close replicas of real-world UI.
