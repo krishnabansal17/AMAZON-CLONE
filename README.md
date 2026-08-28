@@ -24,7 +24,7 @@ cd amazon-clone
 Just open `index.html` in your browser — no build steps or dependencies required.
 
 ## Screenshots
-![Navbar Screenshot](screenshots/navbar.png)
+![Navbar Screenshot](screenshots/added%20panel%20+%20hero-section.png)
 
 ## Learnings
 This project helped me practice semantic HTML, CSS layout techniques (Flexbox/Grid), and building pixel-close replicas of real-world UI.
