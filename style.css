@@ -188,5 +188,31 @@
 .panel-deals {
     font-size: 1rem;
     font-weight: 700;
+}
 
+/** hero-section **/
+
+.hero-section {
+    background-image: url(/assets/hero_image.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.amazon-india {
+    background-color: #fff;
+    display: inline-flex;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.amazon-india a {
+    color: #007185;
+    text-decoration-line: none;
 }
