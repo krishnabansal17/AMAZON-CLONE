@@ -194,7 +194,7 @@
 
 .hero-section {
     background-image: url(/assets/hero_image.jpg);
-    height: 380px;
+    height: 340px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -228,8 +228,7 @@
 
 .box {
     height: 400px;
-    width: 23%;
-    border: 2px solid black;   
+    width: 23%; 
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
@@ -238,6 +237,9 @@
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .box-img {
@@ -247,6 +249,70 @@
     margin-bottom: 1rem;
 }
 
-.box-content p {
+.box-content > p {
     color: #007185;
+    padding-top: 10px;
+}
+
+.four-img-box {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.sub-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 8px);
+    margin-bottom: 10px;
+}
+
+.sub-img {
+    height:110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.four-img-box p {
+  font-size: 13px;
+  color: #111;
+}
+
+.box-content > p.img-label {
+    color: #111;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+.three-img-box {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.box-5 .three-img-box {
+    margin-top: 5px;
+}
+
+.three-img-box .sub-img-wrapper {
+    width: calc(33.33% - 8px);
+}
+
+.three-img-box .sub-img {
+    height: 90px;
+}
+
+.box-5 .box-img {
+    height: 290px; 
+    margin-bottom: 0rem;
+    background-size: 110%;       /* zoom in — jitna zyada % utna zyada zoom */
+    background-position: center; /* center pe focus rakhega jab zoom ho */
+}
+
+.box-5 .three-img-box .sub-img {
+    height: 70px;
+    background-size: 110%;   
+    background-position: center
 }
